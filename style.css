@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: " inter ", sans-serif;
+}
+
+.nav {
+    background-color: #FF5A36;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+    .right-on,
+    .left-on {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 40%;
+    }
+}
+
+.search .logo {
+    height: 70px;
+
+}
+
+.search .xeday {
+    width: 40px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.search-bar {
+    width: 55%;
+
+}
+
+.search input {
+    width: 78%;
+    height: 50px;
+}
+
+.product-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+
+}
+
+.search button {
+    width: 15%;
+    height: 50px;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.container p,product-list p {
+    color:#151515;
+}
+.smaller {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+
+}
+
+.bigger img {
+    width: 100%;
+
+}
+
+.smaller img {
+    width: 100%;
+}
+.icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+.icon1 {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+text-align: center;
+}
+
+.icon img {
+    width: 60px;
+    height: 60px;
+    
+}
+.dinosaur img {
+    width: 100%;
+    height: 100%;
+}
+
+.bigger {
+    width: 80%;
+}
+
+.list img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.frame {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nam,
+.phone {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Fsalecontainer {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.sale img {
+    height: 50px;
+}
+.Fsale{
+    background-color: #ffffff;
+}
+.hotsale{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sp-sale {
+    width: calc(100% / 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sp-sale img {
+    width: 90%;
+    
+}
+.hotsale p{
+    font-size: 30px;
+    font-weight: medium;
+    margin-top: 20px;
+} 
+.netcf img {
+    width: 100%;
+    height: 100%;
+}
+
+.taskbar {
+    width: 50%;
+    display: flex;
+    align-items: center;
+ justify-content: space-around;
+}
+.title {
+    color: #FF5A36;
+}
+.com{
+    width: 30px;
+
+}
+.brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.brand1{
+    width: 30%;
+}
+.brand1 img {
+    width: 100%;
+}
+.brand2
+    { width: 67%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .brand2-1 { width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ffffff;
+
+    }
+
+.product {
+    width: 75%;
+}
+.brand2-1 p {
+   width: 50%;
+}
+.rcmt {
+    width: 100%;
+    display: flex;
+    align-items: center;
+ justify-content: space-around;
+}
+.rcmt p{font-size: 30px;
+    font-weight: medium;
+    margin-top: 20px;
+    color: #FF5A36;
+
+}
+.product-last {
+    width: 100%;
+    }
+.product-row1 , .product-row2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.product-1 , .product-2 {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.product-1 p , .product-2 p {font-size: 30px;
+    font-weight: medium;
+    margin-top: 20px;}
+    .price {
+        color: #FF5A36;
+    }
